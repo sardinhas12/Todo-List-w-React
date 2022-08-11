@@ -8,5 +8,29 @@
     other sylesheets into your bunde as well, e.j:
     
     import 'relative/path/to/stylesheet.scss';
-
 */
+body{
+    background-color: #8ECAE6;
+}
+.title{
+    font-family:'Fjalla One', sans-serif; 
+    color:#023047;
+}
+li{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.delete {
+    display: flex;
+    visibility: hidden;
+}
+li:hover .delete {
+    visibility: visible;
+}
+.todo-input{
+    width: 100%;
+    font-family: 'Fjalla One', sans-serif; 
+    font-style: italic;
+    outline-style: none;
+}
